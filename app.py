@@ -44,8 +44,8 @@ if my_applio:
 else:
     my_applio = "ParityError/Interstellar"
 
-with gr.Blocks(theme=my_applio, title="Applio") as Applio:
-    gr.Markdown("# Applio")
+with gr.Blocks(theme=my_applio, title="Applio & KanoyoTweaks") as Applio:
+    gr.Markdown("# Applio & KanoyoTweaks")
     gr.Markdown(
         i18n(
             "Ultimate voice cloning tool, meticulously optimized for unrivaled power, modularity, and user-friendly experience."

@@ -1,3 +1,12 @@
+# Machine learning
+fairseq==0.12.2
+numba; sys_platform == 'linux'
+numba==0.56.4
+torch==2.1.1
+torchcrepe==0.0.21
+torchvision==0.16.1
+einops
+
 # General dependencies
 ffmpeg-python>=0.2.0
 numpy==1.23.5
@@ -12,16 +21,6 @@ pyworld==0.3.4
 scipy==1.11.1
 soundfile==0.12.1
 praat-parselmouth
-
-# Machine learning
-git+https://github.com/IAHispano/fairseq; sys_platform == 'linux'
-fairseq==0.12.2; sys_platform == 'darwin' or sys_platform == 'win32'
-numba; sys_platform == 'linux'
-numba==0.56.4; sys_platform == 'darwin' or sys_platform == 'win32'
-torch==2.1.1
-torchcrepe==0.0.21
-torchvision==0.16.1
-einops
 
 # Visualization
 matplotlib==3.7.2
