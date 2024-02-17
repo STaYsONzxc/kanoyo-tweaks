@@ -245,10 +245,10 @@ def train_tab():
                 interactive=True,
             )
             save_every_epoch = gr.Slider(
-                1, 100, 10, step=1, label=i18n("Save Every Epoch"), interactive=True
+                1, 250, 10, step=1, label=i18n("Save Every Epoch"), interactive=True
             )
             total_epoch = gr.Slider(
-                1, 1000, 500, step=1, label=i18n("Total Epoch"), interactive=True
+                1, 10000, 500, step=1, label=i18n("Total Epoch"), interactive=True
             )
         with gr.Row():
             pitch_guidance = gr.Checkbox(
